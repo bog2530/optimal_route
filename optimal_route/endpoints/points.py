@@ -20,5 +20,5 @@ async def get_routes(
 @router.post("/routes")
 async def get_routes(
     csv: UploadFile = File(...), point_service: PointServise = Depends(point_service)
-) -> None:
+) -> point_schemas.ResponsePoint:
     return await point_service.save_point(csv)
