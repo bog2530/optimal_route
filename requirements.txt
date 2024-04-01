@@ -1,0 +1,10 @@
+fastapi==0.109.2
+uvicorn==0.29.0
+python-multipart==0.0.9
+pydantic-settings==2.2.1
+sqlalchemy==2.0.29
+asyncpg==0.29.0
+alembic==1.13.1
+aiofiles==23.2.1
+greenlet==3.0.3
+pytest==7.4.4
